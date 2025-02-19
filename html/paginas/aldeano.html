@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El camino del aldeano</title>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>El camino del aldeano</h1>
+            <figure>
+                <img src="../assets/aldeano.png" alt="Aldeano" width="300">
+                <figcaption>El aldeano</figcaption>
+            </figure>
+            <p>Aburrido de lo rutinaria que era su vida, se entera del secuestro de la princesa.</p>
+            <p>Se decide embarcar una aventura</p>
+            <article>
+                <h1>Preparación del Aldeano</h1>
+                <p>Antes de partir, el aldeano debe elegir su equipo para la aventura.</p>
+    
+                <label for="nombre">Nombre del Aldeano:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br><br>
+
+                <label for="motivo">¿Por qué quieres embarcarte en la aventura?</label>
+                <textarea id="motivo" name="motivo" rows="4" cols="50"></textarea>
+                <br><br>
+
+                <label for="arma">Elige tu arma:</label>
+                <select id="arma" name="arma">
+                    <option value="espada">Espada</option>
+                    <option value="arco">Arco</option>
+                    <option value="hacha">Hacha</option>
+                    <option value="ninguna">Prefiero evitar la violencia</option>
+                </select>
+                <br><br>
+
+                <p>Elige tu estrategia:</p>
+                <input type="radio" id="sigilo" name="estrategia" value="sigilo">
+                <label for="sigilo">Sigilo</label>
+
+                <input type="radio" id="fuerza" name="estrategia" value="fuerza">
+                <label for="fuerza">Fuerza bruta</label>
+
+                <input type="radio" id="negociacion" name="estrategia" value="negociacion">
+                <label for="negociacion">Negociación</label>
+                <br><br>
+
+                <p>Objetos adicionales:</p>
+                <input type="checkbox" id="pocion" name="objetos" value="pocion">
+                <label for="pocion">Poción de salud</label>
+
+                <input type="checkbox" id="antorcha" name="objetos" value="antorcha">
+                <label for="antorcha">Antorcha</label>
+
+                <input type="checkbox" id="cuerda" name="objetos" value="cuerda">
+                <label for="cuerda">Cuerda</label>
+                <br><br>
+
+                <button type="button">Iniciar Aventura</button>
+            </article>
+
+            <ul>
+                <li><a href="aldeano1.html">Salir a la aventura</a></li>
+                <li><a href="aldeano2.html">Prepararse mejor antes de partir</a></li>
+            </ul>
+        </article>
+    </main>
+</body>
+</html>
